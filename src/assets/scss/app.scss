@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Homenaje');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-purple {
+    background: $primary-grey;
+    color: white;
+    border: 1px solid $secondary-grey;
+
+    &:hover {
+        border: 1px solid $purple;
+    }
+}
